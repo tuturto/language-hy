@@ -98,11 +98,11 @@
         'name': 'storage.control.hy'
       }
       {
-        'match': '(?<=(\\s|\\(|\\[|\\{))(import|require|setv|print|get|global|and|or|not|genexpr|list|list-comp|set-comp|slice|lambda|fn|(def[a-z\\-]*))(?=(\\s|\\)|\\]|\\}))'
+        'match': '(?<=(\\s|\\(|\\[|\\{))(import|require|setv|print|get|global|and|or|not|genexpr|list|list-comp|set-comp|slice|partition|lambda|fn|(def[a-z\\-]*))(?=(\\s|\\)|\\]|\\}))'
         'name': 'keyword.control.hy'
       }
       {
-        'match': '(?<=(\\s|\\(|\\[|\\{))(butlast|coll\\?|cons|cons\\?|keyword\\?|dec|disassemble|distinct|filterfalse|zip-longest|filter|map|zip|range|input|reduce|cycle|repeat|drop-while|take-while|zipwith|remove|drop|drop-last|empty\\?|even\\?|every\\?|fake-source-positions|flatten|float\\?|gensym|calling-module-name|first|identity|inc|instance\\?|integer|integer\\?|integer-char\\?|interleave|interpose|iterable\\?|iterate|iterator\\?|list\\*|macroexpand|macroexpand-1|merge-with|neg\\?|none\\?|nil\\?|numeric\\?|nth|odd\\?|pos\\?|rest|repeatedly|second|some|string|string\\?|take|take-nth|zero\\?|read|hyify|keyword|name)(?=(\\s|\\)|\\]|\\}))'
+        'match': '(?<=(\\s|\\(|\\[|\\{))(butlast|coll\\?|cons|cons\\?|keyword\\?|dec|disassemble|distinct|filterfalse|zip-longest|filter|map|zip|range|input|reduce|cycle|repeat|drop-while|take-while|zipwith|remove|drop|drop-last|empty\\?|even\\?|every\\?|fake-source-positions|flatten|float\\?|gensym|calling-module-name|first|identity|inc|instance\\?|integer|integer\\?|integer-char\\?|interleave|interpose|iterable\\?|iterate|iterator\\?|list\\*|macroexpand|macroexpand-1|merge-with|neg\\?|none\\?|nil\\?|numeric\\?|nth|odd\\?|pos\\?|rest|repeatedly|second|some|string|string\\?|take|take-nth|zero\\?|read|hyify|keyword|name|fraction|last|read-str|symbol)(?=(\\s|\\)|\\]|\\}))'
         'name': 'keyword.other.hy'
       }
     ]
